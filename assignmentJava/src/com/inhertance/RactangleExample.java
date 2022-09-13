@@ -78,6 +78,7 @@ class cuboide extends Rectangle1 {
     cuboide(){};
     cuboide(int l, int b, int h) {
         super(l, b);
+       // this(l,b);
         System.out.println("i am cuboide constructor set height");
         this.height = h;
     }

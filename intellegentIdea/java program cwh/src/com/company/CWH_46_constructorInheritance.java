@@ -34,9 +34,10 @@ public class CWH_46_constructorInheritance {
     public static void main(String[] args) {
       //  base1 b=new base1();
         //derived1 d=new derived1();
-        derived1 d=new derived1(14,9);
-         childofderived cd=new childofderived();
-      //   childofderived cd=new childofderived(5,6,7);
+      //  derived1 d=new derived1(14,9);
+      //   childofderived cd=new childofderived();
+    	System.out.println("...");
+         childofderived cd=new childofderived(5,6,7);
 
 
     }
